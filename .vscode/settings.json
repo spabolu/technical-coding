@@ -1,0 +1,38 @@
+{
+  // --- Python setup ---
+  "python.defaultInterpreterPath": "python3",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.languageServer": "Pylance",
+
+  // --- Editor behavior ---
+  "editor.fontFamily": "'Courier New', monospace",
+  "editor.formatOnSave": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggest.showWords": true,
+  "editor.parameterHints.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.codeActionsOnSave": {},
+  "editor.hover.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "off",
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+
+  // --- Disable AI / completion extensions ---
+  "github.copilot.enable": {
+    "*": false
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.showSnippets": false,
+  "editor.suggest.showIcons": false,
+
+  // --- UI simplicity ---
+  "workbench.statusBar.visible": true,
+  "workbench.editor.enablePreview": false,
+  "explorer.compactFolders": false,
+
+  // --- Linting only (like online editors) ---
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.mypyEnabled": false
+}
